@@ -1,0 +1,9 @@
+body {
+    background-color: blue;
+}
+#operation {
+    color: purple;
+}
+#answer {
+    color: rgb(243, 187, 187);
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Web Calculator</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <input type="text"  id="numOne">
+        <select name="operation" id="operation">
+         <option value="+">+</option>
+         <option value="-">-</option>
+         <option value="*">*</option>
+         <option value="/">/</option>   
+        </select>
+       <input type="text"  id="numTwo">
+       <input type="button" value="="
+       onclick="getAnswer()">
+        <span id="answer"></span>
+    </body>
+</html>
